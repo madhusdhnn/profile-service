@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: profile-service
+  cloud:
+    config:
+      label: main # set the branch name where the approved and live configs exist
+      uri: http://localhost:8500 # make sure to start the config-server in local
